@@ -53,7 +53,7 @@ const handleSubmit = async (e) => {
   <input type="text" name="cpf" value={formValores.cpf} onChange={handleChange} />
   <br />
 
-  <button type="submit"> Cadastrar </button>
+  <button type="submit"> CADASTRAR </button>
 </form>
 </div>
       </div>

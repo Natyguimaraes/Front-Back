@@ -45,10 +45,15 @@ input {
 button {
    background-color: #377142;
    border-radius: 10px;
-   font-size: larger;
+   font-size: medium;
    font-weight: bold;
    border: 0;
    border-bottom: 2px solid;
    border-color: #ffffff; 
 
+}
+
+button:hover {
+  background-color: #6ba979;
+  cursor: pointer;
 }
