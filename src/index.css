@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Jersey+20&display=swap');
+
+body {
+  background-color: #131218;
+  /*font-family: "Jersey 15", sans-serif;*/
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+h1 {
+  text-align: center;
+  color: white;
+  
+}
+div .form {
+  background-color: rgba(50, 34, 57, 0.32);
+  width: 400px;
+  height: 450px;
+  margin: 100px auto;
+  padding: 10px;
+  box-shadow: 10px 10px 40px 10px #41285A;
+  border-radius: 10px 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 35px;
+}
+
+form input, button {
+  padding: 15px;
+ 
+}
+
+input {
+  background-color: #dcceeaf7;
+  border: 0;
+  border-radius: 10px;
+
+}
+
+button {
+   background-color: #377142;
+   border-radius: 10px;
+   font-size: larger;
+   font-weight: bold;
+   border: 0;
+   border-bottom: 2px solid;
+   border-color: #ffffff; 
+
+}
