@@ -36,8 +36,13 @@ const handleSubmit = async (e) => {
 
   return (
     <>
-      <div>
-       
+
+    <div>
+      <div className="Container">
+       <div className="imagem">
+        .
+        </div>
+      
     <div className="form">
     <h1> Cadastre-se </h1>
 <form onSubmit={handleSubmit}>
@@ -56,6 +61,7 @@ const handleSubmit = async (e) => {
   <button type="submit"> CADASTRAR </button>
 </form>
 </div>
+      </div>
       </div>
     </>
   );
