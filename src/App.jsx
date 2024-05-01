@@ -1,12 +1,13 @@
-import { useState } from 'react'
+
 import './index.css'
 import FormCadastro from './Cadastro';
+import Home from './home';
 
 function App() {
 
 return(
 <div>
-<FormCadastro />
+<Home />
 </div>
 );
 }

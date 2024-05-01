@@ -18,17 +18,22 @@ const handleChange = (e) => {
 };
 
 const handleSubmit = async (e) => {
-
+  e.preventDefault();
   try {
-    e.preventDefault();
-
-    const response = await fetch('./cadastrarPessoa', {
+    console.log("Dados a serem enviados:", formValores);
+    const response = await fetch('https://localhost:3000/cadastrarPessoa', {
       method:'POST',
+      headers: {
+        'Content-Type': 'application/.json'
+      },
+
       body: JSON.stringify(formValores)
-    })
+    });
+
     const json = await response.json();
     console.log(response)
     console.log(json)
+
   } catch (err) {
     console.log("Erro ao enviar", err)
   }

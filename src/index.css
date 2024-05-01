@@ -65,7 +65,16 @@ div .imagem {
   width: 370px;
   background-size:cover;
   background-repeat: no-repeat;
+  animation: floatAnimation 3s infinite alternate ease-in-out;
+}
 
+@keyframes floatAnimation {
+  2% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
 }
 
 .Container {
