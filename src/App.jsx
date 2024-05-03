@@ -1,13 +1,15 @@
 
 import './index.css'
 import FormCadastro from './Cadastro';
-import Home from './home';
+import FormCadastroF from './CadastroFuncionario';
+import Home1 from './home';
+
 
 function App() {
 
 return(
-<div>
-<Home />
+<div>  
+<Home1 />
 </div>
 );
 }
