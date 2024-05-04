@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './index.css'
+import '../../../public/css/index.css'
 
 function FormCadastro() {
 
@@ -20,23 +20,26 @@ const handleChange = (e) => {
 const handleSubmit = async (e) => {
   e.preventDefault();
   try {
-    console.log("Dados a serem enviados:", formValores);
-    const response = await fetch('https://localhost:3000/cadastrarPessoa', {
-      method:'POST',
+    console.log("dados a serem enviados:", formValores);
+    const response = await fetch('http://localhost:3000/cadastrarPessoa', {
+      method: 'POST',
       headers: {
-        'Content-Type': 'application/.json'
+        'Content-Type': 'application/json'
       },
-
       body: JSON.stringify(formValores)
     });
 
+    if (!response.ok) {
+      throw new Error(`Erro ao enviar a solicitação: ${response.status}`);
+    }
+
     const json = await response.json();
-    console.log(response)
-    console.log(json)
+    console.log(json);
 
   } catch (err) {
-    console.log("Erro ao enviar", err)
+    console.log("Erro ao enviar", err);
   }
+
 };
 
   return (

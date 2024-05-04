@@ -1,7 +1,7 @@
 import express from "express";
 const app = express();
 import cors from "cors";
-import CadastroPessoa from "../../../src/CadastroPessoa.js";
+import CadastroPessoa from '../routes/CadastroPessoa.js';
 
 
 app.use(express.json());
@@ -18,4 +18,3 @@ app.post('/cadastrarPessoa', (req, res) => {
 app.listen(3000, () => {
     console.log(`Servidor Express rodando como sucesso porta 3000`);
 });
-

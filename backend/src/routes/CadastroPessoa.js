@@ -29,4 +29,4 @@ class CadastroPessoa {
         this.cpf = novoCPF;
     }
 }
-export default CadastroPessoa;
+export default CadastroPessoa

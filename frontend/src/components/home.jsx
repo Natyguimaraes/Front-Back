@@ -1,6 +1,6 @@
 import FormCadastro from './Cadastro';
 import FormCadastroF from './CadastroFuncionario';
-import './home.css';
+import '../../../public/css/home.css'
 import React, { useState } from 'react';
 
 function Home1() {
