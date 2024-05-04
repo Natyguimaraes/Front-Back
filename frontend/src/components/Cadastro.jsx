@@ -37,7 +37,7 @@ const handleSubmit = async (e) => {
     console.log(json);
 
   } catch (err) {
-    console.log("Erro ao enviar", err);
+    console.log("Erro ao enviar os dados", err);
   }
 
 };
