@@ -3,7 +3,6 @@ const app = express();
 import cors from "cors";
 import CadastroPessoa from '../routes/CadastroPessoa.js';
 
-
 app.use(express.json());
 app.use(cors());
 
