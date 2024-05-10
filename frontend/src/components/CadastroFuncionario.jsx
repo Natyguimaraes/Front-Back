@@ -54,15 +54,15 @@ const handleSubmit = async (e) => {
     <div className="form">
     <h1> Cadastre-se </h1>
 <form onSubmit={handleSubmit}>
-  Nome: 
+  Cargo:
   <input type="text" name="cargo" value={formValores.cargo} onChange={handleChange}/>
   <br />
 
-  Idade:
+  Departamento:
   <input type="text" name="departamento" value={formValores.departamento} onChange={handleChange} />
   <br />
 
-  CPF: 
+  Data de Admissão: 
   <input type="date" name="data" value={formValores.dataAdmissao} onChange={handleChange} />
   <br />
 

@@ -1,6 +1,6 @@
 import FormCadastro from './Cadastro';
-import FormCadastroF from './CadastroFuncionario';
-import '../../../public/css/home.css'
+import FormCadastroFuncionario from './CadastroFuncionario';
+import '../../../public/css/home.css';
 import React, { useState } from 'react';
 
 function Home1() {
@@ -35,7 +35,7 @@ function Home1() {
             </div>
 
             <div className='secao'>
-                {secaoAtual === 'CadastroFuncionario' && <FormCadastroF/>}
+                {secaoAtual === 'CadastroFuncionario' && <FormCadastroFuncionario/>}
             </div> 
         </div>
     );

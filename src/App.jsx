@@ -1,13 +1,12 @@
 
-import FormCadastro from '../frontend/src/components/Cadastro'
-import FormCadastroFuncionario from '../frontend/src/components/CadastroFuncionario';
+import Home1 from '../frontend/src/components/home';
 
 
 function App() {
 
 return(
 <div>  
-<FormCadastroFuncionario/>
+<Home1/>
 </div>
 );
 }

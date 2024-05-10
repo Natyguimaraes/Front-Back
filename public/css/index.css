@@ -80,3 +80,15 @@ div .imagem {
   align-items: center;
   margin: 8%;
 }
+.button {
+  width: 25%;
+  margin-top: 20px;
+ margin: auto;
+}
+
+ .buttonVoltar { 
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
